@@ -22,6 +22,9 @@
       },
       "edgeToEdgeEnabled": true
     },
+    "experiments": {
+      "baseUrl": "/To_Do_List"
+    },
     "web": {
       "favicon": "./assets/favicon.png"
     }
