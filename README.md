@@ -1,54 +1,46 @@
-# Todo Team App
+# 📝 Todo Team App
 
-A React Native To-Do application built with Expo, deployed to the web via GitHub Pages.
+A simple and efficient cross-platform To-Do application built with **React Native** and **Expo**, deployed to the web using **GitHub Pages**.
+
+This app helps users organize their daily tasks with a clean interface and smooth user experience on both web and mobile.
+
+---
 
 ## 🚀 Live Demo
+🔗 https://MaMohm.github.io/To_Do_List/
 
-**[https://MaMohm.github.io/To_Do_List/](https://MaMohm.github.io/To_Do_List/)**
+---
+
+## 🎯 Project Purpose
+This project was created to:
+- Practice React Native with Expo.
+- Explore cross-platform development (Web & Mobile).
+- Improve UI/UX design skills.
+- Learn automated deployment with GitHub Pages.
+
+---
 
 ## 🛠 Features
+✔ Add, edit, and delete tasks  
+✔ Filter tasks (All / Active / Completed)  
+✔ Clean and responsive user interface  
+✔ Web support via React Native Web  
+✔ Fast and lightweight performance  
 
-*   Add, edit, and delete tasks.
-*   Filter tasks (All, Active, Done).
-*   Clean and responsive UI.
-*   Web support via React Native Web.
+---
+
+## 🧰 Tech Stack
+- React Native  
+- Expo  
+- JavaScript  
+- React Native Web  
+- GitHub Pages  
+
+---
 
 ## 📦 Installation
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/MaMohm/To_Do_List.git
-    cd To_Do_List
-    ```
-
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-
-## 🏃‍♂️ Running Locally
-
-To start the development server:
-
+Clone the repository:
 ```bash
-npm start
-```
-
-*   Press **w** to open in the browser.
-*   Press **a** for Android (requires emulator or device).
-*   Press **i** for iOS (requires simulator or device).
-
-## 🚀 Deployment
-
-This project is configured for automated deployment to GitHub Pages.
-
-To deploy a new version:
-
-```bash
-npm run deploy
-```
-
-### How it Works
-1.  **Build**: `npm run predeploy` runs `expo export --platform web` to create a `dist` folder.
-2.  **Config**: It automatically creates a `.nojekyll` file (to support `_expo` folders) and uses the `baseUrl` from `app.json`.
-3.  **Push**: `gh-pages` pushes the `dist` folder to the `gh-pages` branch.
+git clone https://github.com/MaMohm/To_Do_List.git
+cd To_Do_List
